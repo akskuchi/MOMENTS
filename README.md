@@ -3,7 +3,7 @@ A corpus of video fragments extracted from football games ⚽️ in [SoccerRepl
 
 For obtaining access to the MOMENTS dataset, follow these steps:
 1. Request access to the [SoccerReplay-1988 dataset](https://huggingface.co/datasets/Homie0609/SoccerReplay-1988) by signing this [NDA form](https://bifbrprted3.feishu.cn/share/base/form/shrcnkMPY0WTotp0K3mtjJtMgSf).
-2. Upon receiving access to SoccerReplay-1988, please forward the information to [this email](a.k.surikuchi@uva.nl).
+2. Upon receiving access to SoccerReplay-1988, please forward the information to [this email](mailto:a.k.surikuchi@uva.nl).
 
 🔗 More details about the construction and usage of the dataset are available through our preprint:
 ```
