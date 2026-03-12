@@ -21,8 +21,6 @@ def valid_modalities(model_type, modalities):
 		return 'V' not in modalities
 	if model_type == 'VLM':
 		return 'A' not in modalities
-	if model_type == 'Baseline':
-		return modalities in ['A', 'L', 'V']
 
 
 def classify(classifier, modalities, data, results_file, batch_size=1):
@@ -85,9 +83,6 @@ def classify(classifier, modalities, data, results_file, batch_size=1):
 		results[m] = {
 			'model_outputs': model_outputs,
 		}
-		print(
-			f'\tF1-score: {results[m]["evaluation_results"]["F1-score"]:.3f}, accuracy: {results[m]["evaluation_results"]["accuracy"]:.3f}'
-		)
 		with open(results_file, 'w') as fh:
 			json.dump(results, fh, indent=4)
 		fh.close()
